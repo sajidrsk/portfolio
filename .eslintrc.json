@@ -17,5 +17,11 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"]
+  "plugins": ["@typescript-eslint", "@emotion"],
+  "rules": {
+    "@emotion/jsx-import": "error",
+    "@emotion/no-vanilla": "error",
+    "@emotion/import-from-emotion": "error",
+    "@emotion/styled-import": "error"
+  }
 }
